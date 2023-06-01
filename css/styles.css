@@ -1,0 +1,215 @@
+:root {
+  --text: #434455;
+  --dark: #2e2f42;
+  --white: #ffffff;
+  --title-color: #2e2f42;
+  --light: #f4f4fd;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --white-background: #ffffff;
+  --light-background: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
+  background-color: var(--white-background);
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+.section-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/************************* HEADER *************************/
+.link {
+  text-decoration: none;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand);
+  text-transform: uppercase;
+}
+
+.header-logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--dark);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--pressed-state);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-link {
+  color: var(--text);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--pressed-state);
+}
+
+/************************* SECTION 1 *************************/
+
+.hero {
+  background-color: var(--dark);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--primary-brand);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+/************************* SECTION 2 *************************/
+
+/************************* SECTION 3 *************************/
+
+.about-subtitle {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+/************************* SECTION 4 *************************/
+
+.our-team {
+  background-color: var(--light-background);
+}
+
+.team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.team-item {
+  background-color: var(--white-background);
+}
+
+.team-name {
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
+}
+
+/************************* FOOTER *************************/
+
+.footer {
+  background-color: var(--title-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand);
+  text-transform: uppercase;
+}
+
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--light);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light);
+}
+
+/************************* Portfolio *************************/
+
+/************************* SECTION 1 *************************/
+
+.menu-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background-color: var(--light-background);
+  cursor: pointer;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  color: var(--white);
+  background-color: var(--pressed-state);
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
