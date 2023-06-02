@@ -8,6 +8,7 @@
   --pressed-state: #404bbf;
   --white-background: #ffffff;
   --light-background: #f4f4fd;
+  --accent: #e7e9fc;
 }
 
 body {
@@ -337,7 +338,7 @@ img {
   background-color: var(--light-background);
   cursor: pointer;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent);
   border-radius: 4px;
 }
 
@@ -361,7 +362,7 @@ img {
 
 .portfolio-info {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent);
   border-top: none;
 }
 
