@@ -106,6 +106,9 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+}
+
+.header-address-item {
   padding: 24px 0;
 }
 
