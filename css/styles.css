@@ -95,8 +95,11 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
   margin-right: 332px;
+}
+
+.header-menu-item {
+  padding: 24px 0;
 }
 
 .list {
