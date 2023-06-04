@@ -75,6 +75,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-logo {
@@ -96,7 +97,6 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .list {
@@ -158,6 +158,7 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
